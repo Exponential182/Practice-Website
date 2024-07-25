@@ -1,3 +1,22 @@
-body{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900');
+body, html{
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-image{
+    background-image: url("WebsiteResources/scotland-1987599_1280.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    font-size: 25px;
+    color: whitesmoke;
+    position: absolute;
+    top: 260px;
+    text-align: center;
+    width: 100%;
 }
