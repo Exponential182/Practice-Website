@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
 body, html{
     height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Noto-Sans", sans-serif;
 }
 
 .hero-image{
-    background-image: url("WebsiteResources/scotland-1987599_1280.jpg");
+    background-image: url("./WebsiteResources/scotland-1987599_1280.jpg");
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,10 +14,11 @@ body, html{
 }
 
 .hero-text{
-    font-size: 25px;
+    font-size: 3rem;
     color: whitesmoke;
     position: absolute;
-    top: 260px;
+    top: 200px;
     text-align: center;
     width: 100%;
+    font-family: "Baskervville SC", sans-serif;
 }
