@@ -30,13 +30,11 @@ img{
 
 .two-collumn-grid{
     display: grid;
-    grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1fr 2.2fr;
     gap: 50px;
     width: 80%;
     margin: auto;
 }
-
-.image{
-    border: 10px solid slategrey;
-
+.info{
+    font-size: 1.1em;
 }
