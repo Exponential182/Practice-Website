@@ -28,7 +28,7 @@ img{
     font-family: "Baskervville SC", sans-serif;
 }
 
-.two-collumn-grid{
+.two-column-grid{
     display: grid;
     grid-template-columns: 1fr 2.2fr;
     gap: 50px;
