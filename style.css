@@ -5,6 +5,10 @@ body, html{
     font-family: "Noto-Sans", sans-serif;
 }
 
+footer{
+    margin-top: 100px;
+}
+
 img{
     width: 100%;
 }
@@ -37,4 +41,23 @@ img{
 }
 .info{
     font-size: 1.1em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    background-color: rgb(53, 124, 255);
+    border-radius: 10px;
+}
+
+.card-text{
+    font-size: 1.2em;
+    text-align: center;
+    color: whitesmoke;
 }
